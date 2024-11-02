@@ -1,0 +1,62 @@
+# Alacritty Configuration File
+
+general.live_config_reload = true
+
+[window]
+opacity = 0.95
+padding = { x = 12, y = 8 }
+dynamic_padding = false
+decorations = "full"
+startup_mode = "Windowed"
+
+[font]
+normal = { family = "CaskaydiaCove Nerd Font" }
+size = 14.0
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+# Thanos
+[colors]
+# Default colors
+[colors.primary]
+background = '#181B28'
+foreground = '#ffffff'
+dim_foreground = '#C4C5B5'
+bright_foreground = '#ffffff'
+
+# Normal colors
+[colors.normal]
+black = '#1A1A1A'
+red = '#ff206e'
+green = '#58ebd7'
+yellow = '#FABC2A'
+blue = '#9d65ff'
+magenta = '#00A1E4'
+cyan = '#9d65ff'
+white = '#C4C5B5'
+
+# Bright colors
+[colors.bright]
+black = '#404040'
+red = '#ff6b9d'
+green = '#94f4ec'
+yellow = '#FFE066'
+blue = '#bea6ff'
+magenta = '#3ac3ff'
+cyan = '#bea6ff'
+white = '#f0f0e9'
+
+# Dim colors
+[colors.dim]
+black = '#111111'
+red = '#b71d59'
+green = '#3dd2c3'
+yellow = '#c18d1d'
+blue = '#7b51cc'
+magenta = '#0081b5'
+cyan = '#7b51cc'
+white = '#a3a48f'
+
+[terminal.shell]
+program = "/opt/homebrew/bin/tmux" 
